@@ -1,0 +1,31 @@
+.sidebar__item{
+    display: flex;
+    padding: 6px 30px;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.sidebar__item:hover{
+    background-color:rgba(255, 255, 255, 0.183);
+}
+
+.sidebar__Icon{
+    color: white;
+    font-size: 1.4rem;
+}
+
+
+.sidebar__link__text{
+    white-space:nowrap ;
+    font-size: 1.1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.activeLink{
+    background-color: #fff;
+}

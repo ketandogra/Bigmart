@@ -1,0 +1,84 @@
+.filter__widget select{
+
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: white;
+
+}
+.filter__widget select:focus{
+    outline: none !important;
+}
+.filter__widget select option{
+    cursor: pointer;
+    font-size: .9rem;
+
+}
+
+.search__box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding-right: 12px;
+    padding-left: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.search__box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+
+}
+
+.search__box span{
+    color:var(--primary-color) ;
+}
+
+
+@media only screen and (max-width:1199px){
+    .filter__widget,.search__box{
+        margin-bottom: 15px;
+    }
+    .second__filter{
+        text-align: end;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .filter__widget,.search__box{
+        margin-bottom: 15px;
+    }
+    .second__filter{
+        text-align: end;
+    }
+    .first__filter{
+        text-align: end;
+    }
+}
+    
+
+
+@media only screen and (max-width:768px){
+    .filter__widget,.search__box{
+        margin-bottom: 15px;
+    }
+    .filter__widget{
+        text-align: end;
+    }
+    .common__section{
+        padding: 70px 0px;
+        
+    }
+    .common__section h1{
+        font-size: 1.4rem;
+    }
+    
+}

@@ -1,0 +1,47 @@
+
+.auth__form{
+    background: var(--primary-color);
+    padding: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.auth__form input{
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+}
+
+.auth__form input:focus{
+    outline: none;
+}
+
+.auth__btn{
+    background: #fff;
+    color:var(--primary-color);
+    font-weight: 600;
+}
+.auth__form p{
+    margin-top: 30px;
+}
+.auth__form p a{
+    color: rgba(255, 255, 255, 0.737);
+}
+
+.auth__form input[type='file']{
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 0px;
+    padding-left: 0px;
+}
+
+input #file-upload-button{
+    background-color: coral !important;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 0px;
+}
