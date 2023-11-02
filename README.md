@@ -13,8 +13,6 @@ Application Preview - https://ketandogra.github.io/Bigmart/
     Apply filters and sorting based on categories and price.
 
     Enable functionality for creating product wishlists and managing a shopping cart.
-
-    Access an Admin Dashboard containing product and user information.
     
 ## Project Usage instruction
 
